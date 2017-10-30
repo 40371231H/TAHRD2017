@@ -1,5 +1,7 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+
 body{
-	font-family: 'Source Code Pro', monospace;
+	font-family: 'Noto Sans TC','Source Code Pro', monospace;
 }
 
 h1,
@@ -145,7 +147,7 @@ ul, ol {
 }
 
 .nav__item:hover .nav__link{
-	color: #2bf4a1;
+	color: #54B0BD;
 }
 
 .nav__item:hover .nav__item_underline{
@@ -168,13 +170,13 @@ ul, ol {
 }
 
 .current .nav__link{
-	color: #2bf4a1;
+	color: #54B0BD;
 }
 
 .nav__item_underline{
 	width: 0%;
 	display: inline-block;
-	border-bottom: 2px solid #2bf4a1;
+	border-bottom: 2px solid #54B0BD;
 	position: absolute;
 	bottom: -2px; left: 0;
 	-webkit-transition: width .3s ease-in-out;
@@ -387,7 +389,7 @@ ul, ol {
 	color: rgb(51, 51, 51);
 	font-weight: 700;
 	text-decoration: none;
-	border: 1px solid #2bf4a1;
+	border: 1px solid #54B0BD;
 	-webkit-transition: background-color .3s;
 	-o-transition: background-color .3s;
 	transition: background-color .3s;
@@ -396,13 +398,13 @@ ul, ol {
 .text__button:hover{
 	color: rgb(51, 51, 51);
 	text-decoration: none;
-	background-color: #2bf4a1;
+	background-color: #54B0BD;
 }
 
 .text__button:visited{
 	color: rgb(51, 51, 51);
 	text-decoration: none;
-	border: 1px solid #2bf4a1;
+	border: 1px solid #54B0BD;
 }
 
 .text__button:focus{
@@ -453,7 +455,7 @@ ul, ol {
 }
 
 .poster__play-button:hover{
-	background-color: #2bf4a1;
+	background-color: #54B0BD;
 }
 
 .poster__play-button:focus{
@@ -530,7 +532,7 @@ ul, ol {
 	display: inline-block;
 	width: 15px;
 	margin-right: 10px;
-	border-top: 1px solid #2bf4a1;
+	border-top: 1px solid #54B0BD;
 	position: relative;
 	top: -5px;
 }
@@ -554,7 +556,7 @@ ul, ol {
 }
 
 .arrow:hover{
-	color: #2bf4a1;
+	color: #54B0BD;
 }
 
 .arrow_back{
@@ -630,7 +632,7 @@ ul, ol {
 }
 
 .works__nav__item:hover{
-	color: #2bf4a1;
+	color: #54B0BD;
 }
 
 .works__nav__item:hover .works__button_underline{
@@ -643,12 +645,12 @@ ul, ol {
 
 .works__nav__item_active{
 	font-weight: 600;
-	/*border-bottom: 2px solid #2bf4a1;*/
+	/*border-bottom: 2px solid #54B0BD;*/
 }
 
 .works__button_underline{
 	width: 0%;
-	border-top: 2px solid #2bf4a1;
+	border-top: 2px solid #54B0BD;
 	position: absolute;
 	left: 0; bottom: 0;
 	-webkit-transition: width .3s;
@@ -685,7 +687,7 @@ ul, ol {
 
 .gallery__item:hover .gallery__item__hover{
 	height: 100%;
-	background-color: rgba(84, 0, 187, .8);
+	background-color: rgba(7, 111, 138, .8);
 }
 
 .gallery__item__hover{
@@ -740,7 +742,7 @@ ul, ol {
 	margin-right: 20px;
 	position: relative;
 	top: -4px;
-	border-top: 2px solid #2bf4a1;
+	border-top: 2px solid #54B0BD;
 	opacity: 0;
 	-webkit-transition: opacity .3s;
 	-o-transition: opacity .3s;
@@ -794,7 +796,7 @@ ul, ol {
 }
 
 .item__hover__zoom:hover{
-	color: #2bf4a1;
+	color: #54B0BD;
 	text-decoration: none;
 }
 
@@ -838,7 +840,7 @@ ul, ol {
 	font-size: 16px;
 	font-weight: 700;
 	background-color: transparent;
-	border: 1px solid #2bf4a1;
+	border: 1px solid #54B0BD;
 	position: relative;
 	-webkit-transition: background-color .3s;
 	-o-transition: background-color .3s;
@@ -846,7 +848,7 @@ ul, ol {
 }
 
 .gallery__button:hover{
-	background-color: #2bf4a1;
+	background-color: #54B0BD;
 }
 
 .gallery__button_preloading:hover{
@@ -929,7 +931,7 @@ ul, ol {
 }
 
 .popup__arrow:hover{
-	color: #2bf4a1;
+	color: #54B0BD;
 }
 
 .mfp-close{
@@ -940,7 +942,7 @@ ul, ol {
 }
 
 .mfp-close:hover{
-	color: #2bf4a1;
+	color: #54B0BD;
 }
 
 .popup__arrow_back{
@@ -1043,7 +1045,7 @@ ul, ol {
 }
 
 .clients__arrow:hover{
-	color: #2bf4a1;
+	color: #54B0BD;
 }
 
 .clients__arrow_back{
@@ -1115,7 +1117,7 @@ ul, ol {
 	margin-top: -15px;
 	font-family: 'Source Code Pro', monospace;
 	font-weight: 400;
-	color: #2bf4a1;
+	color: #54B0BD;
 }
 
 .comment__text{
@@ -1149,7 +1151,7 @@ ul, ol {
 .contact__email,
 .contact__email:hover,
 .contact__email:focus{
-	color: #2bf4a1;
+	color: #54B0BD;
 	text-decoration: none;
 }
 
@@ -1185,11 +1187,11 @@ ul, ol {
 }
 
 .social__link-and-icon:hover .icon{
-	color: #2bf4a1;
+	color: #54B0BD;
 }
 
 .social__link-and-icon:hover .social__link{
-	color: #2bf4a1;
+	color: #54B0BD;
 }
 
 .social__link{
@@ -1219,7 +1221,7 @@ ul, ol {
 .social__link_underline{
 	width: 0%;
 	display: inline-block;
-	border-bottom: 2px solid #2bf4a1;
+	border-bottom: 2px solid #54B0BD;
 	position: absolute;
 	bottom: -4px; left: 0;
 	-webkit-transition: width .3s;
@@ -1249,7 +1251,7 @@ ul, ol {
 
 .clients-logos{
 	padding: 15px 0;
-	background-color: #2bf4a1;
+	background-color: #54B0BD;
 	position: absolute;
 	top: 50%;
 	left: 0; right: 0;
@@ -1412,7 +1414,7 @@ ul, ol {
 	}
 
 	.current .nav__link{
-		border-bottom: 2px solid #2bf4a1;
+		border-bottom: 2px solid #54B0BD;
 	}
 
 	.slider__item_video{
